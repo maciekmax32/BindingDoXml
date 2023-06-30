@@ -1,0 +1,21 @@
+﻿<Window x:Class="Zadanie_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Category Details App" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <ListBox x:Name="categoriesListBox" Grid.Row="0" Margin="20" BorderThickness="1" BorderBrush="Gray">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Name}" Margin="5"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <Button x:Name="showCategoryDetailsButton" Grid.Row="1" Content="Pokaż szczegóły" Margin="20" Click="ShowCategoryDetailsButton_Click"/>
+    </Grid>
+</Window>

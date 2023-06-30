@@ -1,0 +1,13 @@
+﻿<Window x:Class="Zadanie_4.SubcategoryDetailsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Subcategory Details" Height="300" Width="400">
+    <Grid>
+        <DataGrid x:Name="detailsDataGrid" Margin="20" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="Value" Binding="{Binding Value}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

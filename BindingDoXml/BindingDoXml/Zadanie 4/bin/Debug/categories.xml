@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<categories>
+	<category name="Samochody">
+		<description>Kategoria zawierająca różne rodzaje samochodów.</description>
+		<subcategory name="Osobowe">
+			<description>Samochody osobowe przeznaczone głównie do przewozu osób.</description>
+			<details>
+				<detail name="Marka">Toyota</detail>
+				<detail name="Model">Camry</detail>
+				<detail name="Rok produkcji">2021</detail>
+			</details>
+		</subcategory>
+		<subcategory name="Dostawcze">
+			<description>Samochody dostawcze używane do przewozu towarów.</description>
+			<details>
+				<detail name="Marka">Volkswagen</detail>
+				<detail name="Model">Transporter</detail>
+				<detail name="Rok produkcji">2022</detail>
+				<detail name="Pojemność bagażnika">8m³</detail>
+			</details>
+		</subcategory>
+	</category>
+	<category name="Motocykle">
+		<description>Kategoria zawierająca różne rodzaje motocykli.</description>
+		<subcategory name="Sportowe">
+			<description>Motocykle sportowe przeznaczone do jazdy na torze.</description>
+			<details>
+				<detail name="Marka">Honda</detail>
+				<detail name="Model">CBR1000RR</detail>
+				<detail name="Rok produkcji">2021</detail>
+				<detail name="Moc silnika">200 KM</detail>
+			</details>
+		</subcategory>
+		<subcategory name="Choppery">
+			<description>Motocykle typu chopper o charakterystycznym wyglądzie.</description>
+			<details>
+				<detail name="Marka">Harley-Davidson</detail>
+				<detail name="Model">Iron 883</detail>
+				<detail name="Rok produkcji">2022</detail>
+				<detail name="Pojemność silnika">883 cm³</detail>
+			</details>
+		</subcategory>
+	</category>
+</categories>
